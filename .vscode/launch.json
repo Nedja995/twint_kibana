@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Generate visualizations",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/elasticsearch/generate_visualizations.py",
+            "console": "integratedTerminal",
+            "args": ["109f3f20-34a9-11e9-851e-81f9372e0980"]
+        },
+        {
+            "name": "Optimized twint",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/utils/otwint.py",
+            "console": "integratedTerminal",
+            "args": ["-s", "\"#analytics\"",
+                     "--since", "2019-2-1",
+                     "--until", "2019-3-1",
+                     "-es", "localhost:9200",
+                     "-it", "tweets_analytics",
+                     "-rd", "1",
+                     "-mi", "4"
+                    ]
+        },
+    ]
+}

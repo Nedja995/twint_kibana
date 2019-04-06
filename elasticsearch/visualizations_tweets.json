@@ -1,0 +1,172 @@
+[
+  {
+    "_id": "65ce205a-3566-11e9-9d70-681729ad18c6",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Twiops <DASBOARD TITLE>",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":12,\"y\":0,\"w\":23,\"h\":10,\"i\":\"1\"},\"id\":\"65ce2059-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":10,\"i\":\"2\"},\"id\":\"65ce2056-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 1\":\"rgb(255,255,204)\",\"1 - 3\":\"rgb(255,234,155)\",\"12 - 15\":\"rgb(234,41,32)\",\"15 - 25\":\"rgb(194,3,37)\",\"3 - 6\":\"rgb(254,206,106)\",\"6 - 9\":\"rgb(253,162,69)\",\"9 - 12\":\"rgb(252,105,49)\"},\"legendOpen\":false}},\"gridData\":{\"x\":23,\"y\":10,\"w\":25,\"h\":21,\"i\":\"3\"},\"id\":\"65ce2055-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"gridData\":{\"x\":0,\"y\":75,\"w\":16,\"h\":27,\"i\":\"4\"},\"id\":\"65ce2058-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":10,\"i\":\"5\"},\"id\":\"65ce2057-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":25,\"y\":31,\"w\":23,\"h\":22,\"i\":\"6\"},\"id\":\"65ce2052-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":null}}}},\"gridData\":{\"x\":16,\"y\":75,\"w\":32,\"h\":27,\"i\":\"7\"},\"id\":\"65ce2054-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"7\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}},\"gridData\":{\"x\":0,\"y\":102,\"w\":48,\"h\":35,\"i\":\"8\"},\"id\":\"65ce2053-3566-11e9-9d70-681729ad18c6\",\"panelIndex\":\"8\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":25,\"y\":53,\"w\":23,\"h\":22,\"i\":\"9\"},\"id\":\"f0a7edd0-356f-11e9-8683-53ee6dcae892\",\"panelIndex\":\"9\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":10,\"w\":23,\"h\":21,\"i\":\"10\"},\"id\":\"f270ccf0-3a0f-11e9-a646-5f29877560c2\",\"panelIndex\":\"10\",\"title\":\"[twiops] Activity Linechart [<INDEX NAME>]\",\"type\":\"visualization\",\"version\":\"6.5.4\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"gridData\":{\"x\":0,\"y\":31,\"w\":25,\"h\":44,\"i\":\"11\"},\"id\":\"52ab0430-4abb-11e9-b349-33592a2dd62f\",\"panelIndex\":\"11\",\"type\":\"visualization\",\"version\":\"6.5.4\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f270ccf0-3a0f-11e9-a646-5f29877560c2",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Activity Linechart [<INDEX NAME>]",
+      "visState": "{\"title\":\"[twiops] Activity Linechart [<INDEX NAME>]\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"3\",\"label\":\"Users\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Count\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"date\",\"timeRange\":{\"from\":\"now-15m\",\"to\":\"now\",\"mode\":\"quick\"},\"useNormalizedEsInterval\":true,\"interval\":\"d\",\"time_zone\":\"Europe/Berlin\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"username\",\"customLabel\":\"Users\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"17423e10-356f-11e9-8683-53ee6dcae892\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2055-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Activity Heatmap [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Activity Heatmap [<INDEX NAME>]\",\n  \"type\": \"heatmap\",\n  \"params\": {\n    \"type\": \"heatmap\",\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"enableHover\": false,\n    \"legendPosition\": \"right\",\n    \"times\": [],\n    \"colorsNumber\": 10,\n    \"colorSchema\": \"Yellow to Red\",\n    \"setColorRange\": false,\n    \"colorsRange\": [\n      {\n        \"from\": 0,\n        \"to\": 1\n      },\n      {\n        \"from\": 1,\n        \"to\": 3\n      },\n      {\n        \"from\": 3,\n        \"to\": 6\n      },\n      {\n        \"from\": 6,\n        \"to\": 9\n      }\n    ],\n    \"invertColors\": false,\n    \"percentageMode\": false,\n    \"valueAxes\": [\n      {\n        \"show\": false,\n        \"id\": \"ValueAxis-1\",\n        \"type\": \"value\",\n        \"scale\": {\n          \"type\": \"linear\",\n          \"defaultYExtents\": false\n        },\n        \"labels\": {\n          \"show\": true,\n          \"rotate\": 0,\n          \"overwriteColor\": false,\n          \"color\": \"#555\"\n        }\n      }\n    ]\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"customLabel\": \"\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"date_histogram\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"date\",\n        \"timeRange\": {\n          \"from\": \"now-15m\",\n          \"to\": \"now\",\n          \"mode\": \"quick\"\n        },\n        \"useNormalizedEsInterval\": true,\n        \"interval\": \"d\",\n        \"time_zone\": \"Europe/Berlin\",\n        \"drop_partials\": false,\n        \"customInterval\": \"2h\",\n        \"min_doc_count\": 1,\n        \"extended_bounds\": {},\n        \"customLabel\": \"Date - per DAYS\"\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"enabled\": true,\n      \"type\": \"histogram\",\n      \"schema\": \"group\",\n      \"params\": {\n        \"field\": \"hour\",\n        \"interval\": 1,\n        \"min_doc_count\": true,\n        \"extended_bounds\": {\n          \"min\": 0,\n          \"max\": 23\n        }\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"defaultColors\": {\n      \"0 - 2\": \"rgb(255,255,204)\",\n      \"2 - 3\": \"rgb(255,241,170)\",\n      \"3 - 4\": \"rgb(254,225,135)\",\n      \"4 - 5\": \"rgb(254,201,101)\",\n      \"5 - 6\": \"rgb(254,171,73)\",\n      \"6 - 8\": \"rgb(253,141,60)\",\n      \"8 - 9\": \"rgb(252,91,46)\",\n      \"9 - 10\": \"rgb(237,47,34)\",\n      \"10 - 11\": \"rgb(212,16,32)\",\n      \"11 - 12\": \"rgb(176,0,38)\"\n    }\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n  \"query\": {\n    \"query\": \"\",\n    \"language\": \"lucene\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2058-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Users count [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Users count [<INDEX NAME>]\",\n  \"type\": \"horizontal_bar\",\n  \"params\": {\n    \"type\": \"histogram\",\n    \"grid\": {\n      \"categoryLines\": false,\n      \"style\": {\n        \"color\": \"#eee\"\n      }\n    },\n    \"categoryAxes\": [\n      {\n        \"id\": \"CategoryAxis-1\",\n        \"type\": \"category\",\n        \"position\": \"left\",\n        \"show\": true,\n        \"style\": {},\n        \"scale\": {\n          \"type\": \"linear\"\n        },\n        \"labels\": {\n          \"show\": true,\n          \"rotate\": 0,\n          \"filter\": false,\n          \"truncate\": 200\n        },\n        \"title\": {}\n      }\n    ],\n    \"valueAxes\": [\n      {\n        \"id\": \"ValueAxis-1\",\n        \"name\": \"LeftAxis-1\",\n        \"type\": \"value\",\n        \"position\": \"bottom\",\n        \"show\": true,\n        \"style\": {},\n        \"scale\": {\n          \"type\": \"linear\",\n          \"mode\": \"normal\"\n        },\n        \"labels\": {\n          \"show\": true,\n          \"rotate\": 75,\n          \"filter\": true,\n          \"truncate\": 100\n        },\n        \"title\": {\n          \"text\": \"Count\"\n        }\n      }\n    ],\n    \"seriesParams\": [\n      {\n        \"show\": true,\n        \"type\": \"histogram\",\n        \"mode\": \"normal\",\n        \"data\": {\n          \"label\": \"Count\",\n          \"id\": \"1\"\n        },\n        \"valueAxis\": \"ValueAxis-1\",\n        \"drawLinesBetweenPoints\": true,\n        \"showCircles\": true\n      }\n    ],\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"legendPosition\": \"right\",\n    \"times\": [],\n    \"addTimeMarker\": false\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"customLabel\": \"Count\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"username\",\n        \"size\": 15,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"otherBucket\": false,\n        \"otherBucketLabel\": \"Other\",\n        \"missingBucket\": false,\n        \"missingBucketLabel\": \"Missing\",\n        \"customLabel\": \"Usernames\"\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n  \"query\": {\n    \"query\": \"\",\n    \"language\": \"lucene\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2054-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Users Table [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Users Table [<INDEX NAME>]\",\n  \"type\": \"table\",\n  \"params\": {\n    \"perPage\": 10,\n    \"showMetricsAtAllLevels\": false,\n    \"showPartialRows\": false,\n    \"showTotal\": false,\n    \"sort\": {\n      \"columnIndex\": 0,\n      \"direction\": \"desc\"\n    },\n    \"totalFunc\": \"sum\"\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"customLabel\": \"Tweets count\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"bucket\",\n      \"params\": {\n        \"field\": \"username\",\n        \"size\": 50,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"otherBucket\": false,\n        \"otherBucketLabel\": \"Other\",\n        \"missingBucket\": false,\n        \"missingBucketLabel\": \"Missing\"\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"enabled\": true,\n      \"type\": \"sum\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"nlikes\",\n        \"customLabel\": \"Likes reach\"\n      }\n    },\n    {\n      \"id\": \"4\",\n      \"enabled\": true,\n      \"type\": \"sum\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"nretweets\",\n        \"customLabel\": \"\"\n      }\n    },\n    {\n      \"id\": \"5\",\n      \"enabled\": true,\n      \"type\": \"avg\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"nlikes\",\n        \"customLabel\": \"Avarage nlikes\"\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"params\": {\n      \"sort\": {\n        \"columnIndex\": 3,\n        \"direction\": \"desc\"\n      }\n    }\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n  \"query\": {\n    \"language\": \"lucene\",\n    \"query\": \"\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2053-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Tweets Table [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Tweets Table [<INDEX NAME>]\",\n  \"type\": \"table\",\n  \"params\": {\n    \"perPage\": 10,\n    \"showMetricsAtAllLevels\": false,\n    \"showPartialRows\": false,\n    \"showTotal\": false,\n    \"sort\": {\n      \"columnIndex\": 2,\n      \"direction\": \"desc\"\n    },\n    \"totalFunc\": \"sum\"\n  },\n  \"aggs\": [\n    {\n      \"id\": \"5\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"bucket\",\n      \"params\": {\n        \"field\": \"username\",\n        \"size\": 50,\n        \"order\": \"desc\",\n        \"orderBy\": \"_key\",\n        \"otherBucket\": false,\n        \"otherBucketLabel\": \"Other\",\n        \"missingBucket\": false,\n        \"missingBucketLabel\": \"Missing\"\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"enabled\": true,\n      \"type\": \"max\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"nlikes\",\n        \"customLabel\": \"Likes\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"bucket\",\n      \"params\": {\n        \"field\": \"tweet.raw\",\n        \"size\": 50,\n        \"order\": \"desc\",\n        \"orderBy\": \"_key\",\n        \"otherBucket\": false,\n        \"otherBucketLabel\": \"Other\",\n        \"missingBucket\": false,\n        \"missingBucketLabel\": \"Missing\"\n      }\n    },\n    {\n      \"id\": \"4\",\n      \"enabled\": true,\n      \"type\": \"max\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"nretweets\",\n        \"customLabel\": \"Retweets\"\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"params\": {\n      \"sort\": {\n        \"columnIndex\": 3,\n        \"direction\": \"asc\"\n      }\n    }\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n  \"query\": {\n    \"language\": \"lucene\",\n    \"query\": \"\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2057-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Unique Users [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Unique Users [<INDEX NAME>]\",\n  \"type\": \"metric\",\n  \"params\": {\n    \"addTooltip\": true,\n    \"addLegend\": false,\n    \"type\": \"metric\",\n    \"metric\": {\n      \"percentageMode\": false,\n      \"useRanges\": false,\n      \"colorSchema\": \"Green to Red\",\n      \"metricColorMode\": \"None\",\n      \"colorsRange\": [\n        {\n          \"from\": 0,\n          \"to\": 10000\n        }\n      ],\n      \"labels\": {\n        \"show\": true\n      },\n      \"invertColors\": false,\n      \"style\": {\n        \"bgFill\": \"#000\",\n        \"bgColor\": false,\n        \"labelColor\": false,\n        \"subText\": \"\",\n        \"fontSize\": 25\n      }\n    }\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"cardinality\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"user_id_str\",\n        \"customLabel\": \"Unique Users\"\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n  \"query\": {\n    \"query\": \"\",\n    \"language\": \"lucene\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2056-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Count tweets [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Count tweets [<INDEX NAME>]\",\n  \"type\": \"metric\",\n  \"params\": {\n    \"addLegend\": false,\n    \"addTooltip\": true,\n    \"metric\": {\n      \"colorSchema\": \"Green to Red\",\n      \"colorsRange\": [\n        {\n          \"from\": 0,\n          \"to\": 10000\n        }\n      ],\n      \"invertColors\": false,\n      \"labels\": {\n        \"show\": true\n      },\n      \"metricColorMode\": \"None\",\n      \"percentageMode\": false,\n      \"style\": {\n        \"bgColor\": false,\n        \"bgFill\": \"#000\",\n        \"fontSize\": 26,\n        \"labelColor\": false,\n        \"subText\": \"\"\n      },\n      \"useRanges\": false\n    },\n    \"type\": \"metric\"\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"customLabel\": \"Tweets\"\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n  \"query\": {\n    \"language\": \"lucene\",\n    \"query\": \"\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2052-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Hashtags Cloud [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Hashtags Cloud [<INDEX NAME>]\",\n  \"type\": \"tagcloud\",\n  \"params\": {\n    \"scale\": \"linear\",\n    \"orientation\": \"single\",\n    \"minFontSize\": 20,\n    \"maxFontSize\": 80,\n    \"showLabel\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"hashtags\",\n        \"size\": 30,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\",\n        \"otherBucket\": false,\n        \"otherBucketLabel\": \"Other\",\n        \"missingBucket\": false,\n        \"missingBucketLabel\": \"Missing\"\n      }\n    }\n  ]\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n  \"query\": {\n    \"query\": \"\",\n    \"language\": \"lucene\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "f0a7edd0-356f-11e9-8683-53ee6dcae892",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Frequent words [<INDEX NAME>]",
+      "visState": "{\"title\":\"[twiops] Frequent words [<INDEX NAME>]\",\"type\":\"tagcloud\",\"params\":{\"maxFontSize\":72,\"minFontSize\":18,\"orientation\":\"single\",\"scale\":\"linear\",\"showLabel\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"tweet\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"17423e10-356f-11e9-8683-53ee6dcae892\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "52ab0430-4abb-11e9-b349-33592a2dd62f",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Shared URLs [<INDEX NAME>]",
+      "visState": "{\"title\":\"[twiops] Shared URLs [<INDEX NAME>]\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"bottom\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":200}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"shared_url_base\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"exclude\":\"\\\"\\\"|\\\"twitter.com\\\"\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"17423e10-356f-11e9-8683-53ee6dcae892\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "65ce2059-3566-11e9-9d70-681729ad18c6",
+    "_type": "visualization",
+    "_source": {
+      "title": "[twiops] Filters [<INDEX NAME>]",
+      "visState": "{\n  \"title\": \"[twiops] Filters [<INDEX NAME>]\",\n  \"type\": \"input_control_vis\",\n  \"params\": {\n    \"controls\": [\n      {\n        \"id\": \"1547435898173\",\n        \"indexPattern\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n        \"fieldName\": \"username\",\n        \"parent\": \"\",\n        \"label\": \"Username\",\n        \"type\": \"list\",\n        \"options\": {\n          \"type\": \"terms\",\n          \"multiselect\": true,\n          \"dynamicOptions\": true,\n          \"size\": 5,\n          \"order\": \"desc\"\n        }\n      },\n      {\n        \"id\": \"1547436171723\",\n        \"indexPattern\": \"17423e10-356f-11e9-8683-53ee6dcae892\",\n        \"fieldName\": \"hashtags\",\n        \"parent\": \"\",\n        \"label\": \"Hashtags\",\n        \"type\": \"list\",\n        \"options\": {\n          \"type\": \"terms\",\n          \"multiselect\": true,\n          \"dynamicOptions\": true,\n          \"size\": 5,\n          \"order\": \"desc\"\n        }\n      }\n    ],\n    \"updateFiltersOnChange\": false,\n    \"useTimeFilter\": false,\n    \"pinFilters\": false\n  },\n  \"aggs\": []\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"query\": {\n    \"language\": \"lucene\",\n    \"query\": \"\"\n  },\n  \"filter\": []\n}"
+      }
+    }
+  }
+]
