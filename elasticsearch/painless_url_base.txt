@@ -1,0 +1,27 @@
+def st = doc['tweet.raw'].value;
+def ret = '';
+
+int start = st.indexOf('http');
+if(start > -1) {
+ret = st.substring(start);
+}
+else {
+start = st.indexOf('www');
+if(start > -1) {ret = st.substring(start);}
+else {start = st.indexOf('://');if(start > -1) {ret = st.substring(start);}}
+}
+
+int end = ret.indexOf(' ');
+if(end > -1){ret = ret.substring(0, end - 2);}
+
+def dStart = ret.indexOf('://');
+if(dStart > -1){ret = ret.substring(dStart + 3);}
+
+dStart = ret.indexOf('www.');
+if(dStart > -1){ret = ret.substring(dStart + 4);}
+
+
+def dEnd = ret.indexOf('/');
+if(dEnd > -1){ret = ret.substring(0, dEnd);}
+
+return ret;
