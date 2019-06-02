@@ -8,23 +8,24 @@ import json
 # Template file
 tweets_visualizations = "elasticsearch/visualizations_tweets.json"
 # Template ids
-id_kibana_index_pattern = "17423e10-356f-11e9-8683-53ee6dcae892"
-id_dashboard = "65ce205a-3566-11e9-9d70-681729ad18c6"
+id_kibana_index_pattern = "0c02a860-8541-11e9-b7f1-f3c5bdac5ebf"
+id_dashboard = "1638109b-8541-11e9-ac10-681729ad18c6"
 dashboard_title = "<DASBOARD TITLE>"
 index_name = "<INDEX NAME>"
 #visualization
 visualizations_id = [
-    "65ce2055-3566-11e9-9d70-681729ad18c6",
-    "f270ccf0-3a0f-11e9-a646-5f29877560c2",
-    "65ce2056-3566-11e9-9d70-681729ad18c6",
-    "65ce2059-3566-11e9-9d70-681729ad18c6",
-    "f0a7edd0-356f-11e9-8683-53ee6dcae892",
-    "65ce2052-3566-11e9-9d70-681729ad18c6",
-    "52ab0430-4abb-11e9-b349-33592a2dd62f",
-    "65ce2053-3566-11e9-9d70-681729ad18c6",
-    "65ce2057-3566-11e9-9d70-681729ad18c6",
-    "65ce2058-3566-11e9-9d70-681729ad18c6",
-    "65ce2054-3566-11e9-9d70-681729ad18c6"
+    "16381093-8541-11e9-ac10-681729ad18c6",
+    "16381092-8541-11e9-ac10-681729ad18c6",
+    "16381090-8541-11e9-ac10-681729ad18c6",
+    "16381099-8541-11e9-ac10-681729ad18c6",
+    "16381098-8541-11e9-ac10-681729ad18c6",
+    "16381095-8541-11e9-ac10-681729ad18c6",
+    "1638109a-8541-11e9-ac10-681729ad18c6",
+    "16381097-8541-11e9-ac10-681729ad18c6",
+    "16381094-8541-11e9-ac10-681729ad18c6",
+    "16381091-8541-11e9-ac10-681729ad18c6",
+    "16381096-8541-11e9-ac10-681729ad18c6",
+    "551c7e90-8541-11e9-b7f1-f3c5bdac5ebf"
 ]
 
 

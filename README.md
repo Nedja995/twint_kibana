@@ -1,6 +1,6 @@
-# [TWINT](https://github.com/twintproject/twint) - More practical (and optimized) use with Elasticsearch and Kibana
+## [TWINT](https://github.com/twintproject/twint) - More practical (and optimized) use with Elasticsearch and Kibana
 
-## See also [Twint Flask-Celery Server](https://github.com/Nedja995/twint_server) for http server
+#### See also [Twint Flask-Celery Server](https://github.com/Nedja995/twint_server) for http server
 
 
 ## Table of Contents
@@ -19,9 +19,10 @@
 
 1. Create ES index with [index-tweets.json](elasticsearch/index-tweets.json)
 
-2. Gather tweets containing keyword<br />
+2. Gather tweets containing keyword (3 ways)<br />
 - `twint -s "<keyword>" --since 2019-1-1 -es localhost:9200 -it <es index name> --count`
-- [Optimized](#optimized): `python3 utils/otwint.py -s "<keyword>" --since 2019-1-1 --until 2019-2-1 -es localhost:9200 -it "<es index name>" -rd 1 -mi 4`
+- [Twint Flask-Celery Server](https://github.com/Nedja995/twint_server)
+- [Optimized (but better use sever)](#optimized)
 
 3. Create Kibana Index Pattern
 
